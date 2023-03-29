@@ -43,39 +43,6 @@
 
 * Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## :computer: Code Examples
 
-* use ng breakpoint observer to see if use has a phone-sized screen or not.
 
-```typescript
-ngOnInit(): void {
-  this.breakpointObserver
-    .observe(Breakpoints.Handset)
-    .subscribe(async result => {
-      this.isHandset = result.matches
-    })
-}
-```
 
-## :cool: Features
-
-* Clicking on a row will console.log the data in that row.
-* Table now has a sticky header.
-* Table columns now sortable
-
-## :clipboard: Status & To-Do List
-
-* Status: Working.
-* To-Do: Nothing
-
-## :clap: Inspiration
-
-* [Angular Material sort docs](https://material.angular.io/components/sort/overview).
-
-## :file_folder: License
-
-* This project is licensed under the terms of the MIT license.
-
-## :envelope: Contact
-
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
